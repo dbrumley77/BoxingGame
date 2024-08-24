@@ -1,0 +1,15 @@
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\bin\Debug\net8.0\BoxingGame.exe
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\bin\Debug\net8.0\BoxingGame.deps.json
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\bin\Debug\net8.0\BoxingGame.runtimeconfig.json
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\bin\Debug\net8.0\BoxingGame.dll
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\bin\Debug\net8.0\BoxingGame.pdb
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\BoxingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\BoxingGame.AssemblyInfoInputs.cache
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\BoxingGame.AssemblyInfo.cs
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\BoxingGame.csproj.CoreCompileInputs.cache
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\BoxingGame.sourcelink.json
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\BoxingGame.dll
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\refint\BoxingGame.dll
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\BoxingGame.pdb
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\BoxingGame.genruntimeconfig.cache
+C:\Users\dougl\OneDrive\Desktop\projects\BoxingGame\obj\Debug\net8.0\ref\BoxingGame.dll
