@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\BoxingGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|c:\\users\\dougl\\onedrive\\desktop\\projects\\boxinggame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|c:\\users\\dougl\\onedrive\\desktop\\projects\\boxinggame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|c:\\users\\dougl\\onedrive\\desktop\\projects\\boxinggame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|c:\\users\\dougl\\onedrive\\desktop\\projects\\boxinggame\\challenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|solutionrelative:challenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|c:\\users\\dougl\\onedrive\\desktop\\projects\\boxinggame\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FD48A4-7042-4A23-AFE5-A6BB7A1F026D}|BoxingGame.csproj|solutionrelative:champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\BoxingGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\BoxingGame\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T15:23:13.971Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\BoxingGame\\Game.cs",
               "RelativeDocumentMoniker": "Game.cs",
               "ToolTip": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\BoxingGame\\Game.cs",
               "RelativeToolTip": "Game.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAmAAAA",
+              "ViewState": "AQIAAPMAAAAAAAAAAAAAABEBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T15:23:35.013Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Challenger.cs",
+              "DocumentMoniker": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\BoxingGame\\Challenger.cs",
+              "RelativeDocumentMoniker": "Challenger.cs",
+              "ToolTip": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\BoxingGame\\Challenger.cs",
+              "RelativeToolTip": "Challenger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T17:32:06.781Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Champion.cs",
+              "DocumentMoniker": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\BoxingGame\\Champion.cs",
+              "RelativeDocumentMoniker": "Champion.cs",
+              "ToolTip": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\BoxingGame\\Champion.cs",
+              "RelativeToolTip": "Champion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T17:32:27.12Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

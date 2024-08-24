@@ -4,9 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Game.RunGame();
-            
+            Game.GameIntro();
+          
+            Game.PressEnter();
 
+            Game.RunGame_Round1();
+            
+            Game.RunGame_Round2();
 
         }
 
