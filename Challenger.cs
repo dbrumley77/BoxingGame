@@ -10,13 +10,13 @@ namespace BoxingGame
     {
         Challenger challenger = new Challenger();
 
-        public static int Health { get; set; } = 100;
+        public static int Health { get; set; } 
 
-        public static int Energy { get; set; } = 100;
+        public static int Energy { get; set; } 
 
-        public static int Damage { get; set; } = 100;
+        public static int Damage { get; set; } 
 
-        public int AttackDamage { get; set; } = 100;
+        public int AttackDamage { get; set; }
 
         public static bool IsAlive { get; set; }
 

@@ -9,7 +9,9 @@
             Game.PressEnter();
 
             Game.RunGame_Round1();
-            
+
+            Game.PressEnter2();
+
             Game.RunGame_Round2();
 
         }

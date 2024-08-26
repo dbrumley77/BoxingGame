@@ -37,17 +37,21 @@ namespace BoxingGame
                     Console.WriteLine();
                     Console.WriteLine("WHAT? YOU SCARED!, I UNDERSTAND CHUMP! \n" +
                         "Unfortunately \"NO\" is not an option for You!");
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                    Console.WriteLine("ANNOUCER SPEAKING: For the thousands in attendance and the millions watching on-line,"
+                        + " LET'S GET READY TO RUMBLE!!!");
 
                 }
             }
-        
-            
-            
 
-            do 
+
+
+
+            do
             {
-                Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.WriteLine();
                 Console.WriteLine("ANNOUCER SPEAKING: We have the challenger fighting out of the white corner, \n" +
                     "hailing from nowhere special with a record of Zero Wins and Zero Loses, \n" +
                     "He is here tonight to challenge the Champion!");
@@ -60,7 +64,7 @@ namespace BoxingGame
                 Console.WriteLine("LETS GET IT ON!!!!!");
                 Console.WriteLine();
             }
-            while(false);
+            while (false);
 
 
             Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -82,11 +86,11 @@ namespace BoxingGame
 
         public static void PressEnter()
         {
-           
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
+
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("(Press \"ENTER\" to continue.)");
             Console.ReadKey();
-            
+
 
         }
 
@@ -121,13 +125,13 @@ namespace BoxingGame
             }
             if (parsedUserInput == 2)
             {
-                energyLose -= rng.Next(0, 30);
+                energyLose -= rng.Next(0, 20);
                 Console.WriteLine($"You counter attacked with a jab, the jab missed and decresed your energy by {energyLose} points");
             }
             if (parsedUserInput == 3)
             {
                 attackDamage += rng.Next(10, 20);
-                Console.WriteLine($"You counter attacked with an Uppercut and it landed inflicting {attackDamage} points");
+                Console.WriteLine($"You counter attacked with an Uppercut and it landed inflicting {attackDamage} damage points");
             }
 
 
@@ -166,7 +170,7 @@ namespace BoxingGame
             if (parsedUserInput2 == 3)
             {
                 attackDamage += rng.Next(20, 30);
-                Console.WriteLine($"You counter attacked with an Uppercut and it landed inflicting {attackDamage} points");
+                Console.WriteLine($"You counter attacked with an Uppercut and it landed inflicting {attackDamage} damage points");
 
             }
 
@@ -184,7 +188,7 @@ namespace BoxingGame
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Choose option: \n" +
-                "1. Defense: Lower your shoulder to defelct punch \n" +
+                "1. Defense: Lower your shoulder to deflect punch \n" +
                 "2. Counter Punch: Jab to the body then head \n" +
                 "3. Counter Punch: Uppercut \n");
             int parsedUserInput3 = int.Parse(Console.ReadLine());
@@ -205,7 +209,7 @@ namespace BoxingGame
             }
             if (parsedUserInput3 == 3)
             {
-                energyLose += rng.Next(20, 30);
+                energyLose -= rng.Next(20, 30);
                 Console.WriteLine($"You counter attacked with an Uppercut and it missed badly lowering your energy by {energyLose} points");
 
             }
@@ -235,7 +239,7 @@ namespace BoxingGame
             if (parsedUserInput4 == 1)
             {
                 energyLose -= rng.Next(0, 5);
-                Console.WriteLine($"Playing defense lowered your energy by {energyLose} points but no damage was inflicted to you");
+                Console.WriteLine($"Playing defense lowered your energy by {energyLose} points");
 
             }
             if (parsedUserInput4 == 2)
@@ -254,16 +258,31 @@ namespace BoxingGame
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("ANNOUCER SPEAKING: Thats the end of Round 1.\n" +
                 "Someone call the Fire Department its heatin up in here!\n" +
-                "What does Round 2 have planned, I am not sure but Here is the Bell");
-            Thread.Sleep(1000);
+                "What does Round 2 have planned, I am not sure but Here is the Bell!");
+            Thread.Sleep(4000);
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.White;
-            
+            Thread.Sleep(4000);
+
+
+        }
+
+        public static void PressEnter2()
+        { 
+
+            Thread.Sleep(1000);
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("(Press \"ENTER\" to continue.)");
+            Console.ReadKey();
+            Console.ForegroundColor = ConsoleColor.White;
+
 
         }
 
         public static void RunGame_Round2()
         {
+            Console.Clear();
             Console.WriteLine("Bell Sounds: DING! DING!");
             Console.WriteLine();
             Thread.Sleep(1000);
